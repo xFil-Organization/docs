@@ -1,10 +1,10 @@
 # 背景介绍
 随着 Defi 的兴起，链上资产的应用场景、应用范围和流动性都有不同程度的加强，以太坊链上的 DEX、借贷、合成资产等场景给以太坊生态带来的极大的繁荣。
 
-Filecoin 当前不支持智能合约，因此无法在链上实现DeFi，极大地限制了其发展。官方已经将[支持EVM](https://filecoin.io/blog/posts/building-web3-filecoin-ethereum-better-together/)列入计划，但开发上线和生态的发展都需要一定的时间；且现今并没有一个完备的 Filecoin 跨链技术能够将 Filecoin 的原生 Coin 和存储功能引入到如 Ethereum 等带有智能合约功能的链上，这也极大地制约了 Filecoin 参与 Defi 生态，也无法将 Filecoin 的存储空间开放给其他公链使用。
+Filecoin 当前不支持智能合约，因此无法在链上实现DeFi，极大地限制了其发展。官方已经将[支持EVM](https://filecoin.io/blog/posts/building-web3-filecoin-ethereum-better-together/)列入计划，但开发上线和生态的发展都需要一定的时间；且现今并没有一个完备的 Filecoin 跨链技术能够将 Filecoin 及存储功能引入到如 Ethereum 等带有智能合约功能的链上，这也极大地制约了 Filecoin 参与 Defi 生态，也无法将 Filecoin 的存储空间开放给其他公链使用。
 
 # 跨链技术
-基于以上背景，xFil 希望首先通过 Filecoin 跨连桥的方式将 FileCoin 的原生 Coin: Fil 桥接到智能合约目标链（如 ETH, BSC 等）上，首先实现 Fil 参与到广阔的 Defi 生态中。
+基于以上背景，xFil 希望首先通过 Filecoin 跨连桥的方式将 Filecoin 桥接到智能合约目标链（如 ETH, BSC 等）上，首先实现 Fil 参与到广阔的 Defi 生态中。
 
 在其他公链上，已经有许多尝试在区块链之间实现各种形式的互操作性，其中大部分都集中在比特币和以太坊之间的交互上。在本节中，我们将讨论一些已提出的现有解决方案并查看它们的主要缺点。
 
